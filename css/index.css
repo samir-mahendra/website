@@ -1,12 +1,14 @@
 @charset "UTF-8";
 html {
-    background-color: #cec0bc;
+    /* background-color: #cec0bc; */
+    background-image: url("../images/xv-tinged.png");
+    background-repeat: repeat;  
 }
 body {
     font-family: 'Quicksand', sans-serif;
     max-width: 800px;
     margin: auto;
-    background-color: white;
+    background-color: #ffffffd1;
     padding: 0px 0px 20px 0px;
 }
 .header {
@@ -42,11 +44,11 @@ body {
     white-space: nowrap;
 }
 .menuitem > a:hover {
-    color: #3fa9f5;
+    color: #0ebb4b;
 }
 .main {
     margin: -32px 20px 0px 20px;
-    color: #ae7d79;
+    color: #8e524d; /* #ae7d79; */
 }
 .main a {
     color: #656a7a;
@@ -54,15 +56,15 @@ body {
     border-bottom: 1px dashed #ae7d79;
 }
 .main a:visited {
-    color: #3fa9f5;
+    color: #0ebb4b;
     text-decoration: none;
-    border-bottom: 1px dashed #3fa9f5;
+    border-bottom: 1px dashed #0ebb4b;
 }
 .main a:hover {
     border-bottom: 1px solid #ae7d79;
 }
 .main a:visited:hover {
-    border-bottom: 1px solid #3fa9f5;
+    border-bottom: 1px solid #0ebb4b;
 }
 .main2 {
     margin: 12px 0px 70px 0px;
@@ -94,7 +96,7 @@ a.sp:hover {
 
 .button {
     display: inline-block;
-    background-color: 3fa9f5;
+    background-color: 0ebb4b;
     color: white;
     text-decoration: none;
     padding: 15px;
@@ -129,6 +131,7 @@ h2 {
 .field > button  {
     padding: 15px 46px;
     font-size: 16px;
+    border-width: 0px;
 }
 .image {
     position: relative;    
